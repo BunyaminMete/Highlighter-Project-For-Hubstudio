@@ -1,0 +1,39 @@
+.maintext{
+    width: 400px;
+    height: 500px;
+    background-color:rgb(214, 174, 255);
+    position: absolute;
+}
+
+.content{
+    width:55%;
+    margin-left: 20%;
+    margin-top: 5%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    min-height: 600px;
+    background-color: black;
+    color: white;
+
+}
+
+.yellow{
+    background-color: rgb(255,255,0,0.5)
+}
+
+.logo{
+    justify-content: center;
+    margin-left: 40%;
+}
+
+.searchbox{
+    margin-left: 36%;
+    margin-top: 30px;
+    background-color: gray;
+    border-radius: 5px;
+
+}
+
+
+
