@@ -30,7 +30,7 @@ const HighLightText = ({ text, search }) => {
     let createNewText = '';
     for (let i = 0; i < splittedByLetters.length; i++) {
       indexPositions.includes(i)
-        ? (createNewText += `<span class='yellow'>${splittedByLetters[i]}</span>`)
+        ? (createNewText += `<span style='background-color:yellow;'>${splittedByLetters[i]}</span>`)
         : (createNewText += `${splittedByLetters[i]}`);
     }
     console.log(createNewText);
